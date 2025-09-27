@@ -1,0 +1,3 @@
+<?php
+add_filter( 'site_transient_update_plugins', '__return_null' );
+?>

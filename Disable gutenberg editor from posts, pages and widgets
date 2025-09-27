@@ -1,0 +1,8 @@
+<?php
+// Disable Gutenberg Editor and enable Classic Editor
+add_filter('use_block_editor_for_post', '__return_false', 10);
+add_filter('use_block_editor_for_post_type', '__return_false', 10);
+
+// Disable Widget Block Editor and enable Classic Widgets
+add_filter('use_widgets_block_editor', '__return_false');
+?>
